@@ -13,28 +13,28 @@ import About from "./About.vue";
 <template>
   <div class="menu">
     <Tabs>
-      <Tab label="New">
+      <Tab label="新建">
         <NewGarden />
       </Tab>
-      <Tab label="Maps">
+      <Tab label="地图">
         <Maps />
       </Tab>
-      <Tab label="Draw">
+      <Tab label="绘制">
         <Draw />
       </Tab>
-      <Tab label="Colonies">
+      <Tab label="蚁群">
         <Colonies />
       </Tab>
-      <Tab label="Charts">
+      <Tab label="图表">
         <Charts />
       </Tab>
-      <Tab label="Sim">
+      <Tab label="仿真">
         <Simulation />
       </Tab>
-      <Tab label="Visuals">
+      <Tab label="可视化">
         <Visuals />
       </Tab>
-      <Tab label="About">
+      <Tab label="关于">
         <About />
       </Tab>
     </Tabs>

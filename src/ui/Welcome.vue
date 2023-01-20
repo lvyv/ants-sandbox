@@ -28,16 +28,16 @@ function hideWelcome() {
 <template>
   <Modal :show-header="false" :showActions="false">
     <template v-slot:content>
-      <h1>Welcome to Ants&nbsp;Sandbox</h1>
+      <h1>欢迎使用&nbsp;蚁群仿真平台</h1>
 
       <p>
-        This is a simple and completely useless simulation of an ants colony.
+        这是一个算法仿真的构架设计和多种策略的技术实现。
       </p>
 
       <div class="actions">
-        <button class="btn btn-primary" @click="startTour">Take a tour</button>
+        <button class="btn btn-primary" @click="startTour">功能漫游</button>
 
-        <button class="btn btn-secondary" @click="skipTour">Skip tour</button>
+        <button class="btn btn-secondary" @click="skipTour">跳过向导</button>
       </div>
     </template>
   </Modal>

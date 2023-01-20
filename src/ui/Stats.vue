@@ -18,10 +18,10 @@ useIntervalFn(() => {
 
 <template>
   <div class="stats">
-    <div>Ants: {{ numberOfAnts }}</div>
-    <div>Sim time: {{ simTime.toFixed(1) }}ms</div>
+    <div>蚂蚁数量: {{ numberOfAnts }}</div>
+    <div>仿真时间: {{ simTime.toFixed(1) }}ms</div>
     <div>UPS: {{ ups.toFixed(0) }}</div>
-    <div>FPS: {{ fps.toFixed(0) }}</div>
+    <div>帧率: {{ fps.toFixed(0) }}</div>
   </div>
 </template>
 

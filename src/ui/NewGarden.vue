@@ -31,7 +31,7 @@ function onImageChange(event: Event) {
 </script>
 
 <template>
-  <button class="btn btn-primary" :onclick="makeNewGarden">New garden</button>
+  <button class="btn btn-primary" :onclick="makeNewGarden">新场景</button>
 
   <RadioGroup v-model="state.gardenSettings.type">
     <RadioOption label="Random" value="random" />

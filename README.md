@@ -1,23 +1,17 @@
-# Ants Sandbox https://ants-sandbox.io
+# 蚁群算法仿真环境
 
-This is a simple and completely useless simulation of ants colony for web browsers.
+本例程通过web浏览器暂时蚁群算法的仿真结果。
 
-Inspired by this [YouTube video](https://www.youtube.com/watch?v=81GQNPJip2Y).
-
-The app is available [here](https://ants-sandbox.io/).
-
-![Game screenshot](/screens/screen-4.png)
-
-## Development
+## 开发
 
 * `npm install`
 * `npm run start`
 
-## To build:
+## 构建
 
 * `npm run atlas` - generates texture atlas
 * `npm run build` - builds app
 
-## To lint:
+## 代码静态分析
 
 `npm run lint`

@@ -63,7 +63,7 @@ function toggleMaxSpeed() {
       <Slider
         v-model="state.simulationSettings.speed"
         class="grow shadow"
-        label="Speed"
+        label="仿真速度"
         :default="1"
         :min="0.1"
         :max="10"
